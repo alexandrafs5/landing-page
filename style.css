@@ -12,12 +12,13 @@ body {
     background-color: #1F2937;
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom: 150px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 32px;
+    padding-top: 32px;
 }
 
 ul {
@@ -43,9 +44,36 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 64px;
 }
 
 .image-hero {
-    width: 500px;
+    width: 800px;
     height: 250px;
+}
+
+.title-hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    padding-bottom: 16px;
+}
+
+.text-hero {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 16px;
+}
+
+.info-hero {
+    padding-right: 64px;
+}
+
+.button-hero {
+    font-size: 18px;
+    background: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 32px;
+    border-style: none;
 }
