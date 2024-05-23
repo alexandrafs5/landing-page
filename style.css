@@ -126,6 +126,29 @@ a{
     font-size: 24px;
 }
 
+.contact {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 300px;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    color: white;
+}
+
+.information-contact {
+    font-size: 24px;
+}
+
+.button-contact {
+    font-size: 18px;
+    background: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 32px;
+    border-style: solid;
+    border-color: white;
+}
+
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
